@@ -2,6 +2,7 @@ package com.example.demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @AllArgsConstructor
@@ -11,7 +12,4 @@ public enum Role {
     ADMIN("ROLE_ADMIN");
     private String value;
 
-    Role(String role_admin) {
-        this.value = role_admin;
-    }
 }
